@@ -1,0 +1,29 @@
+#map{
+  height: 200px;
+  background-color: #ECC893;
+  position: relative;
+}
+#map>div{
+  position: absolute;
+  bottom: 0;
+}
+.tank{
+  width: 266px;
+  height: 200px;
+  background-image: url(tanks.jpg);
+  background-position: 0px -89px;
+  z-index: 1;
+
+}
+.rock-1{
+  width: 130px;
+  height: 70px;
+  background-image: url(tanks.jpg);
+  background-position: -640px 287px;
+}
+.mane{
+  width: 90px;
+  height: 70px;
+  background-image: url(tanks.jpg);
+  background-position: -954px 454px;
+}
